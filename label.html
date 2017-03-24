@@ -1,0 +1,80 @@
+<html>
+<head>
+<link rel = "STYLESHEET" href="./css/labelTable.css" type="text/css"/> 
+<link rel = "STYLESHEET" href="./css/navigation.css" type="text/css"/> 
+
+
+    </head>
+    <body>
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="label.html">Labels</a>
+            <a href="band.html">Bands</a>
+            <a href="genre.html">Genres</a>
+        </div>
+
+<div class = "billboard">
+  <div class = "text-wrapper"> 
+    <h1> Music Labels </h1>
+  </div>
+</div>
+
+<!--<input type="search" id="search" placeholder="Filter by Title"> -->
+<table>
+  <tr>
+    <th style="width:7%">Name</th>
+    <th style="width:7%">Year Founded</th>
+    <th style="width:15%"> Founder(s)</th>
+    <th>History</th>
+    <th>Website</th>
+  </tr>
+  
+  <tr>
+    <td id="title"><a href="label-emi.html">EMI</a></td>
+    <td>1931</td>
+    <td>The Gramophone Company</td>
+    <td>EMI (officially EMI Group Limited, originally an initialism for Electric and Musical Industries and often known as EMI Records and EMI Music) was a British multinational conglomerate founded in 31 March 1931 and was based in London. At the time of its break-up in 28 September 2012, it was the fourth-largest business group and family of record labels in the recording industry and was one of the big four record companies (now the big three). Its EMI Records Ltd. group of record labels included EMI Records, Parlophone, Virgin Records and Capitol Records. EMI also had a major publishing arm, EMI Music Publishing—also based in London with offices globally. Originated in the United States. </td>
+    <td>
+        <a href="http://www.universalmusic.com/label/emi/">EMI's Website</a></td>
+  </tr>
+  
+  <tr>
+    <td id="title"><a href="label-motown.html">Motown</a></td>
+    <td>1958</td>
+    <td>Berry Gordy, Jr.</td>
+    <td>Motown is an American record company. The record company was founded by Berry Gordy, Jr. as Tamla Records on January 12, 1958, and was incorporated as Motown Record Corporation on April 14, 1960, in Detroit, Michigan. The name, a portmanteau of motor and town, has also become a nickname for Detroit. Motown played an important role in the racial integration of popular music as an African American-owned record label that achieved significant crossover success. In the 1960s, Motown and its subsidiary labels (including Tamla Motown, the brand used outside the US) were the most successful proponents of what came to be known as the Motown Sound, a style of soul music with a distinct pop influence. During the 1960s, Motown achieved spectacular success for a small record company: 79 records in the Top Ten of the Billboard Hot 100 record chart between 1960 and 1969.</td>
+    <td><a href="http://www.motownrecords.com/">Motown's Website</a> </td>
+  </tr>
+  
+  <tr>
+    <td id="title"><a href="label-defjam.html">Def Jam Recordings</a></td>
+    <td>1983</td>
+    <td>Rick Rubin, Russell Simmons</td>
+    <td>Def Jam Recordings is an American record label, focused predominantly on hip hop and urban music, owned by Universal Music Group. In the UK, the label takes on the name Def Jam UK and is operated through Virgin EMI, while in Japan, it is Def Jam Japan operating through Universal Sigma Music. The label distributes various record labels, including Kanye West's GOOD Music,[1][2] Ludacris' Disturbing Tha Peace, and ARTium Recordings, headed by Def Jam's current executive vice president, No I.D.. Current artists include Iggy Azalea, Logic, Big Sean, Kanye West, Leona Lewis, 2 Chainz, Axwell Λ Ingrosso, Mother Mother, Afrojack, Jeezy, Jeremih, Ludacris, Alesso, Pusha T, Desiigner and Jhené Aiko, among others. </td>
+    <td><a href="http://defjam.com/">Def Jam's Website</a> </td>
+  </tr>
+  
+
+
+    <script>
+    // Quick Table Search
+$('#search').keyup(function() {
+  var regex = new RegExp($('#search').val(), "i");
+  var rows = $('table tr:gt(0)');
+  rows.each(function (index) {
+    title = $(this).children("#title").html()
+    if (title.search(regex) != -1) {
+      $(this).show();
+    } else {
+      $(this).hide();
+    }
+  });
+});
+  //# sourceURL=jscript.js
+  </script>
+
+
+</table>
+</html>

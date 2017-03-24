@@ -1,0 +1,82 @@
+<html>
+<head>
+<link rel = "STYLESHEET" href="./css/bandpage.css" type="text/css"/> 
+<link rel = "STYLESHEET" href="./css/navigation.css" type="text/css"/> 
+<style>
+        .box {
+            width: 55%;
+            padding: 10px;
+            font-size: 25;
+            background-color: #F1F1FF;
+        }
+        .video {
+            width: 40%;
+            padding: 5px;
+            cursor: pointer;
+        }    
+
+        </style>
+    </head>
+	  <body>
+
+    		<div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="label.html">Labels</a>
+            <a href="band.html">Bands</a>
+            <a href="band-beatles.html">The Beatles</a>
+    	      <a href="band-jackson5.html">The Jackson Five</a>
+    	      <a href="band-theroots.html">The Roots</a>
+    	      <a href="genre.html">Genres</a>
+        </div>
+
+<style> .billboard {  background-image: url("./images/abbeyroad.jpg");
+}
+h1{color: #FFF;}
+  </style>
+
+<div class = "billboard">
+  	<div class = "text-wrapper"> 
+    	<h1>The Beatles</h1>
+  	</div>
+</div>
+
+<div id="home-page-boxes" style="display: flex; flex-direction: row; justify-content: space-around">
+
+			<div class="box" onclick="location.href='about.html';">
+                <p>The Fab Four, or more popularly known as  The Beatles, is considered to be one of the greatest musical band in history. They are the best-selling band in history, with worldwide sales estimated to be over 600 million records. The band, which originated out of Liverpool, England, gained their popularity by playing in clubs around Liverpool and Hamburg, England for 3 years. Due to their unconventional recording style and experimentation with different music styles such as  Pop ballads, Hard Rock, Psychedelic, and even Classical music. In the band’s short life, they amassed a collection of 10 Grammy awards, 12 record-setting albums, and a large impact on future generations of bands. Despite the breakup, the band members flourished as solo artist, each inducted into the Rock and Roll Hall of Fame as solo artists. The band was inducted into the Rock and Roll Hall of Fame in 1988. </p>
+                <a class="twitter-timeline" href="https://twitter.com/thebeatles">Tweets by The Roots</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="video" onclick="location.href='https://en.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band';"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2uneYz201p0" frameborder="0" allowfullscreen></iframe>     
+
+            <ul>
+                <li><b>Band's Website: </b><a href=" http://www.thebeatles.com/"> http://www.thebeatles.com</a></li>
+                <li><b>Best Selling Album: Sgt. Peppers Lonely Heart Club (1967)</b><img src="images/pepper.jpeg"></li>
+                </ul>
+    
+           </div>
+
+        </div>
+
+ 			<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
+
+</body>
+</html>

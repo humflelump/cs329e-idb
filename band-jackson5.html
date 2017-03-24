@@ -1,0 +1,78 @@
+<html>
+<head>
+<link rel = "STYLESHEET" href="./css/bandpage.css" type="text/css"/> 
+<link rel = "STYLESHEET" href="./css/navigation.css" type="text/css"/> 
+<style>
+        .box {
+            width: 55%;
+            padding: 10px;
+            font-size: 25;
+            background-color: #F1F1FF;
+        }
+        .video {
+            width: 40%;
+            padding: 5px;
+            cursor: pointer;
+        }    
+
+        </style>
+    </head>
+    <body>
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="label.html">Labels</a>
+            <a href="band.html">Bands</a>
+            <a href="band-beatles.html">The Beatles</a>
+            <a href="band-jackson5.html">The Jackson Five</a>
+            <a href="band-theroots.html">The Roots</a>
+            <a href="genre.html">Genres</a>
+        </div>
+<style> .billboard {  background-image: url("./images/j5.jpeg");
+}
+h1{color: #FFF;}
+  	</style>
+
+ <div class = "billboard">
+  	<div class = "text-wrapper"> 
+    		<h1>Jackson Five</h1>
+  	</div>
+</div>
+
+<div id="home-page-boxes" style="display: flex; flex-direction: row; justify-content: space-around">
+
+			     <div class="box" onclick="location.href='about.html';">
+                <p>The band originally consisted of 3 elder brothers of the Jackson Family, Jackie, Tito, and Jermaine Jackson, but the group took off after the addition of the youngest brothers, Marlon and Michael Jackson. The Jackson Five was one of the first black groups to obtain a crossover following. When the band switched from Motown Records to Epic Record,   Jermaine Jackson left the group and was replaced by youngest Jackson brother, Randy Jackson. The band is well known for it lead vocalist, Micheal Jackson, who career skyrocketed after his departure from the group in 1984. Since then the group has been a part of American pop culture, influencing music for generations. Since their origin, the band has inducted in the Rock and Roll Hall of Fame and received a great amount of accolades. </p>
+                <a class="twitter-timeline" href="https://twitter.com/Jacksons">Tweets by The Jacksons</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+
+            <div class="video" onclick="location.href='https://en.wikipedia.org/wiki/Victory_(The_Jacksons_album)';"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M-aSjHnbw18" frameborder="0" allowfullscreen></iframe>   
+            <ul>
+                <li><b>Band's Website: </b><a href=" http://www.thejacksons.live/"> http://www.thejacksons.live</a></li>
+                <li><b>Best Selling Album: Victory (1983)</b><img src="images/victory.jpeg"></li>
+                </ul>     
+           </div>
+       	</div>
+    
+
+        <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+     
+</body>
+</html>

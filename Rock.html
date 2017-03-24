@@ -1,0 +1,74 @@
+<html>
+<head>
+<link rel = "STYLESHEET" href="./css/genresTable.css" type="text/css"/> 
+<link rel = "STYLESHEET" href="./css/navigation.css" type="text/css"/> 
+
+<style>
+        .box {
+            width: 55%;
+            padding: 10px;
+            font-size: 25;
+            background-color: #F1F1FF;
+        }
+        .video {
+            width: 40%;
+            padding: 5px;
+            cursor: pointer;
+        }    
+
+        </style>
+    </head>
+    <body>
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="label.html">Labels</a>
+            <a href="band.html">Bands</a>
+            <a href="genre.html">Genres</a>
+            <a href="Rock.html">Rock Music</a>
+            <a href="Pop.html">Pop Music</a>
+            <a href="HipHop.html">Hip Hop Music</a>
+        </div>
+<style> .billboard {  background-image: url("./images/rollingStones.jpg");
+}
+h1{color: #FFF;}
+
+  </style>
+<div class = "billboard">
+  <div class = "text-wrapper"> 
+    <h1> Rock Music </h1>
+  </div>
+</div>
+
+<div id="home-page-boxes" style="display: flex; flex-direction: row; justify-content: space-around">
+            
+            <div class="box" onclick="location.href='about.html';">
+                <p>Rock music has its deepest roots in rock and roll but draws influence from every type of music, especially blues, country, folk, and jazz music. It is characterized by electric guitar, drums, bass, and one or more singers. It has a well defined beat and can touch on any subject but is often associated with having fun, as the saying goes "sex, drugs, and rock and roll". Originated in the United States. The <a href="./band-beatles.html"> The Beatles</a> page has more information on a popular rock group.</p>
+               <a class="twitter-timeline" href="https://twitter.com/ROCK_MUSlC">Tweets by ROCK_MUSlC</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="video" onclick="location.href='about.html';"> 
+        <iframe width="649" height="365" src="https://www.youtube.com/embed/Xgcxd9wtXUE" frameborder="0" allowfullscreen></iframe>       
+          </div>
+        
+        </div>
+
+        <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<!--<input type="search" id="search" placeholder="Filter by Title"> -->
+

@@ -1,0 +1,85 @@
+<html>
+<head>
+<link rel = "STYLESHEET" href="./css/band_table.css" type="text/css"/> 
+<link rel = "STYLESHEET" href="./css/navigation.css" type="text/css"/> 
+
+    
+  </head>
+
+  <body>
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="label.html">Labels</a>
+      <a href="band.html">Bands</a>
+      <!-- <a href="band-beatles.html">The Beatles</a>
+      <a href="band-jackson5.html">The Jackson Five</a>
+      <a href="band-theroots.html">The Roots</a> -->
+      <a href="genre.html">Genres</a>
+    </div>
+
+  <div class = "billboard">
+    <div class = "text-wrapper"> 
+      <h1> The Best Bands </h1>
+    </div>
+  </div>
+   
+    <!--<input type="search" id="search" placeholder="Filter by Title"> -->
+    <table>
+      <tr>
+        <th style="width:25%">Band Name</th>
+        <th style="width:35%">Members</th>
+        <th style="width:15%">Years Active</th>
+        <th style="width:25%">Best Selling Album</th>
+        <th style="width:20%">Genre</th>
+      </tr>
+      
+      <tr>
+        <td id="title"><a href="band-beatles.html">The Beatles</a></td>
+        <td>John Lennon, Paul McCartney, George Harrison, Ringo Starr</td>
+        <td>1960-1970</td>
+        <td>Sgt Peppers Lonely Hearts Club Band </td>
+        <td>Rock, Pop, Hard Rock</td> 
+      </tr>
+      
+      <tr>
+        <td id="title"><a href="band-jackson5.html">The Jackson Five</a></td>
+        <td>Jackie Jackson, Tito Jackson, Jermaine Jackson, Marlon Jackson, Michael Jackson, Randy Jackson</td>
+        <td>1964-1989, 2012-2013</td>
+        <td>Victory</td>
+        <td>Funk, Disco, Pop, Rhythm and Blues, Bubblegum Pop, Soul</td> 
+      </tr>
+      
+      <tr>
+        <td id="title"><a href="band-theroots.html">The Roots</a></td>
+        <td>Black Thought (Tariq Trotter), Questlove (Ahmir Thompson), Hub (Leonard Hubbard), Mark Kelly, Tuba Gooding Jr. (Damon Bryson), Captain Kirk Douglas, Kamal Gray, F. Knuckles, and James Poyser</td>
+        <td>1987- Present</td>
+        <td>Things Fall Apart</td>
+        <td>Hip Hop, Jazz Rap, Neo Soul, Alternative Hip Hop</td> 
+      </tr>
+      
+
+
+		<script>
+    // Quick Table Search
+$('#search').keyup(function() {
+  var regex = new RegExp($('#search').val(), "i");
+  var rows = $('table tr:gt(0)');
+  rows.each(function (index) {
+    title = $(this).children("#title").html()
+    if (title.search(regex) != -1) {
+      $(this).show();
+    } else {
+      $(this).hide();
+    }
+  });
+});
+  //# sourceURL=jscript.js
+  		</script>
+
+
+    </table>
+  </body>
+</html>
+

@@ -1,0 +1,97 @@
+<html>
+<head>
+<link rel = "STYLESHEET" href="./css/table.css" type="text/css"/> 
+<link rel = "STYLESHEET" href="./css/navigation.css" type="text/css"/> 
+
+<style>
+  h1{
+        background-image: url(./images/Greatest_bands_of_all_time.png);
+       
+  }
+        .box {
+            width: 25%;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .box:hover {
+            width: 25%;
+            border: 1px dashed black;
+            padding: 5px;
+            cursor: pointer;
+        }    
+        .logo {
+            width: 100%;
+            max-width: 200px; 
+        }
+        </style>
+        
+    </head>
+    <body>
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="label.html">Labels</a>
+            <a href="band.html">Bands</a>
+            <a href="genre.html">Genres</a>
+        </div>
+
+<h1>The Bands </h1>
+
+<!--<input type="search" id="search" placeholder="Filter by Title"> -->
+<table>
+  <tr>
+    <th style="width:20%">Band Name</th>
+    <th style="width:40%">Members</th>
+    <th style="width:20%">Years Active</th>
+    <th style="width:20%">Best Selling Album</th>
+    <th>Bio Summary</th>
+  </tr>
+  
+  <tr>
+    <td id="title"> The Beatles</td>
+    <td>John Lennon, Paul McCartney, George Harrison, Ringo Starr</td>
+    <td>1960-1970</td>
+    <td>Sgt Peppers Lonely Hearts Club Band </td>
+    <td>Click Here <a href="thebestbands.html">The Beatles</a> </td> 
+  </tr>
+  
+  <tr>
+    <td id="title">The Jackson Five</td>
+    <td>Jackie Jackson, Tito Jackson, Jermaine Jackson, Marlon Jackson, Michael Jackson, Randy Jackson</td>
+    <td>1964-1989, 2012-2013</td>
+    <td>Victory</td>
+    <td>Click Here <a href="thebestbands.html">The Jackson Five</a> </td> 
+  </tr>
+  
+  <tr>
+    <td id="title">The Roots</td>
+    <td>Black Thought(Tariq Trotter), Questlove(Ahmir Thompson), Hub (Leonard Hubbard), Mark Kelly, Tuba Gooding Jr. (Damon Bryson), Captain Kirk Douglas, Kamal Gray, F. Knuckles, and James Poyser</td>
+    <td>1987- Present</td>
+    <td>Things Fall Apart</td>
+    <td>Click Here <a href="thebestbands.html">The Roots</a> </td> 
+  </tr>
+  
+
+
+    <script>
+    // Quick Table Search
+$('#search').keyup(function() {
+  var regex = new RegExp($('#search').val(), "i");
+  var rows = $('table tr:gt(0)');
+  rows.each(function (index) {
+    title = $(this).children("#title").html()
+    if (title.search(regex) != -1) {
+      $(this).show();
+    } else {
+      $(this).hide();
+    }
+  });
+});
+  //# sourceURL=jscript.js
+  </script>
+
+
+</table>
+</html>
+
