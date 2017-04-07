@@ -1,0 +1,84 @@
+<html>
+<head>
+<link rel = "STYLESHEET" href="./css/genresTable.css" type="text/css"/> 
+<link rel = "STYLESHEET" href="./css/navigation.css" type="text/css"/> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="label.html">Labels</a>
+            <a href="band.html">Bands</a>
+            <a href="genre.html">Genres</a>
+            <a href="Rock.html">Rock Music</a>
+            <a href="Pop.html">Pop Music</a>
+            <a href="HipHop.html">Hip Hop Music</a>
+        </div>
+
+<div class = "billboard">
+  <div class = "text-wrapper"> 
+    <h1> Music Genres </h1>
+  </div>
+</div>
+
+<!--<input type="search" id="search" placeholder="Filter by Title"> -->
+<table>
+  <tr>
+    <th style="width:7%">Name</th>
+    <th style="width:7%">Year Created</th>
+    <th style="width:15%"> Best Selling Album</th>
+    <th>Description</th>
+    <th>Subgenres</th>
+  </tr>
+  
+  <tr>
+    <td> <a href="Rock.html">Rock</a></td>
+    <td>1949</td>
+    <td>Back in Black by AC/DC</td>
+    <td>Rock music has its deepest roots in rock and roll but draws influence from every type of music, especially blues, country, folk, and jazz music. It is characterized by electric guitar, drums, bass, and one or more singers. It has a well defined beat and can touch on any subject but is often associated with having fun, as the saying goes "sex, drugs, and rock and roll". Originated in the United States. </td>
+    <td>Alternative rock, art rock,  garage rock, glam rock, hard rock,  heavy metal, indie rock, new wave, progressive rock, psychedelic rock, punk rock, Southern rock, surf</td>
+  </tr>
+  
+  <tr>
+    <td><a href="Pop.html">Pop</a></td>
+    <td>1926</td>
+    <td>Thriller by Michael Jackson</td>
+    <td>Pop music is sometimes confused with popular music, or music that many people like, but it is accepted as its own style of music best described as professional music with influences of folk and rock that includes catchy repeated choruses and hooks. It appeals in large part to teenagers and often takes the form of songs released as singles. Originated in the United States and United Kingdom. </td>
+    <td>Art pop, Brill Building, bubblegum pop, Cantopop, Christian pop, dance-pop, electropop, Europop, J-pop, K-pop, Latin pop, operatic pop, progressive pop, synth-pop, space age pop, sunshine pop, teen pop </td>
+  </tr>
+  
+  <tr>
+    <td><a href = "HipHop.html">Hip Hop</a></td>
+    <td>1972</td>
+    <td>CrazySexyCool by TLC</td>
+    <td>Hip Hop music is a rhythmically focused music that usually serves as a layer over which artists rap, a rhythmic, rhyming chanting. It was developed by African Americans in the United states during the 1970s when block parties grew in popularity, especially in New York City. It is synonymous with rap music and incorporates sampling parts of songs, bass lines, and the use of drum machines.  </td>
+    <td> Alternative hip hop, Christian hip hop, experimental hip hop, freestyle rap, gangsta rap, homo hop, hardcore hip hop, horrorcore, instrumental hip hop, mafioso rap, nerdcore, Chicano rap, Native American hip hop, Jerkin' </td>
+  </tr>
+  
+
+
+    <script>
+    // Quick Table Search
+$('#search').keyup(function() {
+  var regex = new RegExp($('#search').val(), "i");
+  var rows = $('table tr:gt(0)');
+  rows.each(function (index) {
+    title = $(this).children("#title").html()
+    if (title.search(regex) != -1) {
+      $(this).show();
+    } else {
+      $(this).hide();
+    }
+  });
+});
+  //# sourceURL=jscript.js
+  </script>
+
+
+</table>
+</html>
+

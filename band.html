@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Navbar Bootstrap javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <!-- Normal Bootstrap Links-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap4.min.css" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    
+        
+    <title>Bands - TheBestBands.me</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="./css/bandBootstrap.css" rel="stylesheet">
+    
+  </head>
+
+  
+
+  <!-- Pinned nav bar -->
+  <body>
+
+  <nav class="navbar navbar-inverse navbar-toggleable-md navbar-inner" >
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <a class="navbar-brand"  href="index.html">TheBestBands.me</a>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Labels
+        </a>
+        
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="label.html">Labels Home</a>
+          <a class="dropdown-item" href="label-ato.html">ATO</a>
+          <a class="dropdown-item" href="lable-columbia">Columbia</a>
+          <a class="dropdown-item" href="label-defjam.html">Def Jam</a>
+          <a class="dropdown-item" href="label-emi.html">Emi</a>
+          <a class="dropdown-item" href="label-motown.html">Motown</a>
+          <a class="dropdown-item" href="label-nonesuch.html">Nonesuch</a>
+        </div>
+      </li>
+      
+      <!--Bands sub dropdown menu-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bands</a>
+        
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="band.html">Bands Home</a>
+          <a class="dropdown-item" href="band-alabamashakes.html">Alabama Shakes</a>
+          <a class="dropdown-item" href="band-beatles.html">The Beatles</a>
+          <a class="dropdown-item" href="band-dixiechicks.html">Dixie Chicks</a>
+          <a class="dropdown-item" href="band-jackson5.html">Jackson 5</a>
+          <a class="dropdown-item" href="band-lakestreetdive.html">Lake Street Dive</a>
+          <a class="dropdown-item" href="band-theroots.html">The Roots</a>
+          <a class="dropdown-item" href="band-shinee.html">SHINee</a>
+        </div>
+      </li>
+      
+      <!--Labels sub dropdown menu-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genres</a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="genre.html">Genres Home</a>
+          <a class="dropdown-item" href="Rock.html">Rock Music</a>
+          <a class="dropdown-item"  href="Pop.html">Pop Music</a>
+          <a class="dropdown-item"  href="HipHop.html">Hip Hop Music</a>
+          <a class="dropdown-item"  href="Blues.html">Blues Music</a>
+          <a class="dropdown-item" href="kPop.html">K-Pop Music</a>
+          <a class="dropdown-item" href="Jazz.html">Jazz Music</a>
+          <a class="dropdown-item" href="Country.html">Country Music</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Banner-->
+<div class = "bg">
+<div class = "jumbotron">
+  <h1 class = "display-title">The Best Bands</h1>
+  </div>
+</div>
+
+
+  <!-- Table header/footer--> 
+  <div class="tableInfo" >
+    <div class="table-responsive"  >
+      <div class ="container"> 
+      <table id="example" class=" table table-striped table-inverse table-bordered table-hover " cellspacing="0" width="100%">
+      <thead>
+        <tr>
+        <th>Band Name</th>
+        <th>Members</th>
+        <th>Years Active</th>
+        <th>Best Selling Album</th>
+        <th>Genre</th>
+        <th>Label</th>
+        </tr></thead>
+      <tfoot>
+        <tr>
+        <th>Band Name</th>
+        <th>Members</th>
+        <th>Years Active</th>
+        <th>Best Selling Album</th>
+        <th>Genre</th>
+        <th>Label</th>
+        </tr></tfoot>
+  
+    <!-- Table contents-->
+    <tr>
+      <td id="title"><a href="band-beatles.html">The Beatles</a></td>
+      <td>John Lennon, Paul McCartney, George Harrison, Ringo Starr</td>
+      <td>1960-1970</td>
+      <td>Sgt Peppers Lonely Hearts Club Band </td>
+      <td><a href="Rock.html">Rock</a>, <a href="Pop.html">Pop</a>, Hard Rock</td>
+      <td><a href="label-emi.html">EMI</a></td> 
+    </tr>
+      
+    <tr>
+      <td id="title"><a href="band-jackson5.html">The Jackson Five</a></td>
+      <td>Jackie Jackson, Tito Jackson, Jermaine Jackson, Marlon Jackson, Michael Jackson, Randy Jackson</td>
+      <td>1964-1989, 2012-2013</td>
+      <td>Victory</td>
+      <td>Funk, Disco, <a href="Pop.html">Pop</a>, Rhythm and Blues, Bubblegum Pop, Soul</td>
+      <td><a href="label-motown.html">Motown</a></td> 
+    </tr>
+      
+    <tr>
+      <td id="title"><a href="band-theroots.html">The Roots</a></td>
+      <td>Black Thought (Tariq Trotter), Questlove (Ahmir Thompson), Hub (Leonard Hubbard), Mark Kelly, Tuba Gooding Jr. (Damon Bryson), Captain Kirk Douglas, Kamal Gray, F. Knuckles, and James Poyser</td>
+      <td>1987- Present</td>
+      <td>Things Fall Apart</td>
+      <td><a href="HipHop.html">Hip Hop</a>, Jazz Rap, Neo Soul, Alternative Hip Hop</td> 
+      <td><a href="label-defjam.html">Def Jam</a></td> 
+    </tr>
+
+    <tr>
+      <td id="title"><a href="band-alabamashakes.html">Alabama Shakes</a></td>
+      <td>Brittany Howard, Heath Fogg, Steve Johnson, and Zac Cockrell</td>
+      <td>2009- Present</td>
+      <td>Sound and Color</td>
+      <td><a href="Blues.html">Blues</a>, Rock, Southern Rock, Soul</td>
+      <td><a href="label-ato.html">ATO</a></td>   
+    </tr>
+
+    <tr>
+      <td id="title"><a href="band-lakestreetdive.html">Lake Street Dive</a></td>
+      <td>Rachael Price, Mike "McDuck" Olson, Bridget Kearney, and Mike Calabrese</td>
+      <td>2004- Present</td>
+      <td>Side Pony</td>
+      <td><a href="Jazz.html">Jazz</a>, Folk rock, Indie Pop, Motown, Southern Rock</td>
+      <td><a href="label-nonesuch.html">Nonesuch</a></td>  
+    </tr>
+
+    <tr>
+      <td id="title"><a href="band-dixiechicks.html">Dixie Chicks</a></td>
+      <td>Natalie Maines, Emily Robinson, Martie Maguire</td>
+      <td>1989- Present</td>
+      <td>Fly</td>
+      <td><a href="Country.html">Country</a>, Americana, Alternative Country, Folk, Bluegrass, Country Pop</td>
+      <td><a href="label-columbia.html">Columbia</a></td>   
+    </tr>
+
+    <tr>
+      <td id="title"><a href="band-shinee.html">SHINee</a></td>
+      <td>Onew, Jonghyun, Key, Minho, Taemin</td>
+      <td>2008 - Present</td>
+      <td>Lucifer</td>
+      <td><a href="kPop.html">Kpop</a>, R&B, Jpop, dance-pop, electropop</td>
+      <td><a href="label-sment.html">S.M.ENT</a></td>   
+    </tr>
+
+      
+      
+
+
+		<script>
+    
+
+    // Quick Table Search
+$('#search').keyup(function() {
+  var regex = new RegExp($('#search').val(), "i");
+  var rows = $('table tr:gt(0)');
+  rows.each(function (index) {
+    title = $(this).children("#title").html()
+    if (title.search(regex) != -1) {
+      $(this).show();
+    } else {
+      $(this).hide();
+    }
+  });
+});
+  //# sourceURL=jscript.js
+  		</script>
+
+
+    </table>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    
+
+
+
+<!-- Bootstrap table javascript
+    ================================================== -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.13/js/dataTables.bootstrap4.min.js"></script>
+        
+        <script>
+        
+$(document).ready(function() {
+    $('#example').dataTable( {
+      "lengthMenu": [ 3, 5, 10 ]
+      
+    } );
+});
+
+var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+    $('.jumbotron').css('margin-top', (jumboHeight-scrolled)-350 + 'px');
+
+}
+
+$(window).scroll(function(e){
+    parallax();
+});
+  </script>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

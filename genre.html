@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+	      <!-- Navbar Bootstrap javascript-->
+	     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+	  	      <!-- Normal Bootstrap Links-->
+
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap4.min.css" rel="stylesheet"/>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    
+
+        
+    <title>Genres - TheBestBands.me</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="./css/genresBootstrap.css" rel="stylesheet">
+    
+    
+   
+    
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-inverse navbar-toggleable-md navbar-inner" >
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand"  href="index.html">TheBestBands.me</a>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Labels
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+  <a class="dropdown-item" href="label.html">Labels Home</a>
+         <a class="dropdown-item" href="label-defjam.html">Def Jam</a>
+          <a class="dropdown-item" href="label-emi.html">Emi</a>
+          <a class="dropdown-item" href="label-motown.html">Motown</a>
+            <a class="dropdown-item" href="label-ato.html">ATO</a>
+          <a class="dropdown-item" href="label-columbia.html">Columbia</a>
+          <a class="dropdown-item" href="label-sment.html">S.M. Entertainment</a>
+        <a class="dropdown-item" href="label-nonesuch.html">NoneSuch</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Bands
+        </a>
+        
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="band.html">Bands Home</a>
+          <a class="dropdown-item" href="band-alabamashakes.html">Alabama Shakes</a>
+          <a class="dropdown-item" href="band-beatles.html">Beatles</a>
+          <a class="dropdown-item" href="band-jackson5.html">Jackson 5</a>
+          <a class="dropdown-item" href="band-theroots.html">The Roots</a>
+          <a class="dropdown-item" href="band-shinee.html">SHINee</a>
+          <a class="dropdown-item" href="band-lakestreetdive.html">Lake Street Dive</a>
+          <a class="dropdown-item" href="band-dixiechicks.html">Dixie Chicks</a>
+
+        </div>
+        
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Genres
+        </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="genre.html">Genres Home</a>
+         <a class="dropdown-item" href="Rock.html">Rock Music</a>
+          <a class="dropdown-item"  href="Pop.html">Pop Music</a>
+          <a class="dropdown-item"  href="HipHop.html">Hip Hop Music</a>
+             <a class="dropdown-item"  href="Blues.html">Blues Music</a>
+         <a class="dropdown-item" href="kPop.html">K-Pop Music</a>
+           <a class="dropdown-item" href="Jazz.html">Jazz Music</a>
+             <a class="dropdown-item" href="Country.html">Country Music</a>
+
+
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bg">
+		
+    <div class="jumbotron">
+
+        <h1 class="display-title">Music Genres</h1>
+       
+      </div>
+    </div>
+
+
+   
+		
+
+     <div class="tableInfo" >
+		   <div class="table-responsive"  >
+			   <div class ="container"> 
+	     <table id="example" class=" table table-striped table-inverse table-bordered table-hover " cellspacing="0" width="100%"> <thead>
+			  <tr> <th>Name</th> <th>Year Created</th> <th>Best Selling Album</th> <th>Description</th> <th>Subgenres</th>  </tr></thead> 
+	    <tfoot> <tr> <th>Name</th> <th>Year Created</th> <th>Best Selling Album</th> <th>Description</th> <th>Subgenres</th>  </tr></tfoot> 
+	    <tbody> 
+            <tr> <td><a href="Rock.html">Rock</a></td>
+	    <td>1949</td>
+	    <td>Back in Black by AC/DC</td>
+	    <td>Rock music has its deepest roots in rock and roll but draws influence from every type of music, especially blues, country, folk, and jazz music. It is characterized by electric guitar, drums, bass, and one or more singers. It has a well defined beat and can touch on any subject but is often associated with having fun, as the saying goes "sex, drugs, and rock and roll". Originated in the United States. </td>
+	    <td>Alternative rock, art rock,  garage rock, glam rock, hard rock,  heavy metal, indie rock, new wave, progressive rock, psychedelic rock, punk rock, Southern rock, surf</td>
+	    </tr>
+	    
+            <tr> <td><a href="Pop.html">Pop</a></td>
+	    <td>1926</td>
+	    <td>Thriller by Michael Jackson</td>
+		<td>Pop music is sometimes confused with popular music, or music that many people like, but it is accepted as its own style of music best described as professional music with influences of folk and rock that includes catchy repeated choruses and hooks. It appeals in large part to teenagers and often takes the form of songs released as singles. Originated in the United States and United Kingdom. </td>
+		<td>Art pop, Brill Building, bubblegum pop, Cantopop, Christian pop, dance-pop, electropop, Europop, J-pop, K-pop, Latin pop, operatic pop, progressive pop, synth-pop, space age pop, sunshine pop, teen pop </td>
+	    </tr>
+	    
+            <tr> <td><a href="hiphop.html">Hip Hop</a></td>
+	    <td>1972</td>
+		<td>CrazySexyCool by TLC</td>
+	    <td>Hip Hop music is a rhythmically focused music that usually serves as a layer over which artists rap, a rhythmic, rhyming chanting. It was developed by African Americans in the United states during the 1970s when block parties grew in popularity, especially in New York City. It is synonymous with rap music and incorporates sampling parts of songs, bass lines, and the use of drum machines.  </td>
+		<td> Alternative hip hop, Christian hip hop, experimental hip hop, freestyle rap, gangsta rap, homo hop, hardcore hip hop, horrorcore, instrumental hip hop, mafioso rap, nerdcore, Chicano rap, Native American hip hop, Jerkin' </td>
+		</tr>
+	    
+            <tr> <td><a href="Blues.html">Blues </a></td>
+	    <td>1903</td>
+	    <td>Unplugged by Eric Clapton</td>
+	    <td>Blues Music originated by African Americans in the Deep South of the United States around the end of the 19th century. The genre developed from roots in African musical traditions, African-American work songs, spirituals, and European-American folk music. Blues incorporated spirituals, work songs, field hollers, shouts, chants, and rhymed simple narrative ballads. The blues form, ubiquitous in jazz, rhythm and blues and rock and roll, is characterized by the call-and-response pattern, the blues scale and specific chord progressions, of which the twelve-bar blues is the most common. </td>
+	    <td>Boogie-woogie, classic female blues, country blues, electric blues, jump blues, piano blues, acoustic blues</td> 
+	    </tr>
+	    
+	    <tr> <td><a href="kPop.html">K-Pop </a> </td>
+	    <td>1992</td>
+	    <td>Mis Encounter by Kim Gun Mo</td>
+	    <td>K-pop  is a music genre originating in South Korea that is characterized by a wide variety of audiovisual elements. Although it comprises all genres of "popular music" within South Korea, the term is more often used in a narrower sense to describe a modern form of South Korean pop music covering a range of styles and genres incorporated from the West such as Western pop music, rock, jazz, hip-hop, R&B, reggae, electronica, techno, rave, nu metal, folk, country and classical on top of its traditional Korean music roots.</td>
+	    <td>undocumented </td>
+	    </tr>
+	    
+            <tr> <td><a href="Jazz.html">Jazz</a></td>
+	     <td>1910</td>
+	     <td>Kind of Blue by Miles Davis</td>
+	     <td>Jazz is a music genre that originated amongst African Americans in New Orleans, United States, in the late 19th and early 20th centuries, and developed from roots in Blues and Ragtime. Since the 1920s jazz age, jazz has become recognized as a major form of musical expression. It then emerged in the form of independent traditional and popular musical styles, all linked by the common bonds of African American and European American musical parentage with a performance orientation. Jazz is characterized by swing and blue notes, call and response vocals, polyrhythms and improvisation.</td>
+	     <td>Avant-garde jazz bebop big band chamber jazz cool jazz ECM jazz free jazz gypsy jazz hard bop Latin jazz mainstream jazz modal jazz M-Base neo-bop post-bop progressive jazz soul jazz swing Third Stream traditional jazz</td>
+	     </tr>
+	     
+            <tr> <td><a href="Country.html">Country</a></td>
+	     <td>1927</td>
+	     <td>Come On Over by Shania Twain</td>
+	     <td>Country music (frequently referred to as just country) is a genre of United States popular music that originated in the southern United States in the 1920s. It takes its roots from the southeastern genre of United States, such as folk music (especially Appalachian folk music), and blues music. Blues modes have been used extensively throughout its recorded history. Country music often consists of ballads and dance tunes with generally simple forms and harmonies accompanied by mostly string instruments such as banjos, electric and acoustic guitars, dobros and fiddles as well as harmonicas.</td>
+	     <td>Bakersfield sound bluegrass bro-country close harmony honky tonk jug band progressive country Nashville sound neotraditional country outlaw country Red Dirt Western swing Texas country</td> 
+	     </tr>
+	      
+	      </tbody> </table>
+				</div>
+			</div> 
+		</div>
+	</div>
+	
+      <hr>
+
+      <footer>
+        <p>&copy; ProcrastiNation 2017</p>
+      </footer>
+    
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    
+
+
+
+<!-- Bootstrap table javascript
+    ================================================== -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.13/js/dataTables.bootstrap4.min.js"></script>
+        
+        <script>
+        
+$(document).ready(function() {
+    $('#example').dataTable( {
+      "lengthMenu": [ 3, 5, 10 ]
+      
+    } );
+});
+
+var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+    $('.jumbotron').css('margin-top', (jumboHeight-scrolled)-350 + 'px');
+
+}
+
+$(window).scroll(function(e){
+    parallax();
+});
+	</script>
+
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+
