@@ -18,12 +18,57 @@ URLs that will call the index() function if running app.py on localhost:
 @app.route('/index') # Secondary URL for function
 def index():
 	return render_template('index.html') # located in templates/
+
+@app.route('/about')
+def about():
+	return render_template('about.html')
+
+@app.route('/label') 
+def label():
+	return render_template('label.html') 
+
+@app.route('/band') 
+def band():
+	return render_template('band.html') 
+
+@app.route('/genre') 
+def genre():
+	return render_template('genre.html') 
 	
 #ADD YOUR LABELS, BANDS LINKS/FUNCTIONS HERE
 # you also have to change your references to css and images by adding ../static/	
+
+
+@app.route('/label_ato')
+def label_ato():
+	return render_template('label-ato.html')
+
+@app.route('/label_columbia')
+def label_columbia():
+	return render_template('label-columbia.html')
+
 @app.route('/label_defjam')
 def label_defjam():
 	return render_template('label-defjam.html')
+
+@app.route('/label_emi')
+def label_emi():
+	return render_template('label-emi.html')
+
+@app.route('/label_motown')
+def label_motown():
+	return render_template('label-motown.html')
+
+@app.route('/label_nonesuch')
+def label_nonesuch():
+	return render_template('label-nonesuch.html')
+
+@app.route('/label_sment')
+def label_sment():
+	return render_template('label-sment.html')
+
+
+
 
 @app.route('/Blues')
 def Blues():
@@ -56,6 +101,36 @@ def kPop():
 @app.route('/Genre')
 def Genre():
 	return render_template('genre.html')
+
+
+
+@app.route('/band_beatles')
+def band_beatles():
+	return render_template('band-beatles.html')
+
+@app.route('/band_alabamashakes')
+def band_alabamashakes():
+	return render_template('band-alabamashakes.html')
+
+@app.route('/band_dixiechicks')
+def band_dixiechicks():
+	return render_template('band-dixiechicks.html')
+
+@app.route('/band_jackson5')
+def band_jackson5():
+	return render_template('band-jackson5.html')
+
+@app.route('/band_lakestreetdrive')
+def band_lakestreetdrive():
+	return render_template('band-lakestreetdrive.html')
+
+@app.route('/band_shinee')
+def band_shinee():
+	return render_template('band-shinee.html')
+
+@app.route('/band_theroots')
+def band_theroots():
+	return render_template('band-theroots.html')
 
 
 	
