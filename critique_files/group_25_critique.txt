@@ -1,0 +1,9 @@
+Create a critique of another group's website by answering the following questions:
+•	What did they do well?
+o	They have a nice page navigation bar at the bottom of each table. They also have a creative element – “Random Page” – button, which takes the user to any page on the website to learn more about comics, authors, and genres.
+•	What did we learn from their website?
+o	The website accomplishes its task of teaching the user about different comics, authors, and genres within comics.
+•	What can they do better?
+o	The genres could use a more detailed description, to educate an audience unfamiliar with comics. The pages would also benefit from a more compact view. In other words, it would be more visually appealing to see the tables of data not span to the edge of the screen.
+•	What puzzles us about their website?
+o	The home page is puzzling, because the image is inconsistent. There is a break in the image about halfway down and all the speech bubbles have either “Genre,” “Comic,” or “Author” except for one. However, all bubbles link to these respective pages. There is also no introductory information on the home page to explain what the user should get having visited the site.
