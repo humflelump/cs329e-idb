@@ -155,6 +155,7 @@ def textupdated():
     return render_template('index.html', bandDict = bandDict, editable = False)
 
 if __name__ == "__main__":
-    app.run('107.170.29.54', '80')
+    app.run()
+    #app.run('107.170.29.54', '80')
 
 
