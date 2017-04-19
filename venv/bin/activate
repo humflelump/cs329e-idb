@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/v/filer4b/v35q001/iansp/Desktop/humflelump.github.io/venv"
+VIRTUAL_ENV="/Users/iansp/Google_Drive/Spring_2017_Sync/softwareEngineering/cs329e-idb/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

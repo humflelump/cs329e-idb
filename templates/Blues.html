@@ -40,8 +40,8 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="./css/genresBootstrap.css" rel="stylesheet">
-    <link rel = "STYLESHEET" href="./css/genresTable.css" type="text/css"/> 
+    <link href="../static/css/genresBootstrap.css" rel="stylesheet">
+    <link rel = "STYLESHEET" href="../static/css/genresTable.css" type="text/css"/> 
     
 </head>
 
@@ -52,14 +52,14 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand"  href="index.html">TheBestBands.me</a>
+      <a class="navbar-brand" href={{ url_for('index') }}>thebestbands.me</a>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link"  href={{ url_for('index') }}>Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link"href={{ url_for('about') }}>About</a>
       </li>
 
       <li class="nav-item dropdown">
@@ -67,30 +67,29 @@
           Labels
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-  <a class="dropdown-item" href="label.html">Labels Home</a>
-         <a class="dropdown-item" href="label-defjam.html">Def Jam</a>
-          <a class="dropdown-item" href="label-emi.html">Emi</a>
-          <a class="dropdown-item" href="label-motown.html">Motown</a>
-            <a class="dropdown-item" href="label-ato.html">ATO</a>
-          <a class="dropdown-item" href="label-columbia.html">Columbia</a>
-          <a class="dropdown-item" href="label-sment.html">S.M. Entertainment</a>
-        <a class="dropdown-item" href="label-nonesuch.html">NoneSuch</a>
+     <a class="dropdown-item" href={{ url_for("label")}}>Labels Home</a>
+         <a class="dropdown-item" href={{ url_for('label_defjam') }}>Def Jam</a>
+          <a class="dropdown-item" href={{ url_for('label_emi')}}>Emi</a>
+          <a class="dropdown-item" href={{ url_for('label_motown')}}>Motown</a>
+           <a class="dropdown-item" href={{ url_for('label_ato')}}>ATO</a>
+          <a class="dropdown-item" href={{ url_for('label_columbia')}}>Columbia</a>
+          <a class="dropdown-item" href={{ url_for('label_sment')}}>S.M. Entertainment</a>
+        <a class="dropdown-item" href={{ url_for('label_nonesuch')}}>NoneSuch</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Bands
         </a>
-        
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="band.html">Bands Home</a>
-          <a class="dropdown-item" href="band-alabamashakes.html">Alabama Shakes</a>
-          <a class="dropdown-item" href="band-beatles.html">Beatles</a>
-          <a class="dropdown-item" href="band-dixiechicks.html">Dixie Chicks</a>
-          <a class="dropdown-item" href="band-jackson5.html">Jackson 5</a>
-          <a class="dropdown-item" href="band-lakestreetdive.html">Lake Street Dive</a>
-          <a class="dropdown-item" href="band-theroots.html">The Roots</a>
-          <a class="dropdown-item" href="band-shinee.html">SHINee</a>
+         <a class="dropdown-item" href={{ url_for('band')}}>Bands Home</a>
+         <a class="dropdown-item" href={{ url_for('band_alabamashakes')}}>Alabama Shakes</a>
+         <a class="dropdown-item" href={{ url_for('band_beatles')}}>Beatles</a>
+         <a class="dropdown-item" href={{ url_for('band_jackson5')}}>Jackson 5</a>
+         <a class="dropdown-item" href={{ url_for('band_theroots')}}>The Roots</a>
+         <a class="dropdown-item" href={{ url_for('band_shinee')}}>SHINee</a>
+         <a class="dropdown-item" href={{ url_for('band_lakestreetdive')}}>Lake Street Dive</a>
+         <a class="dropdown-item" href={{ url_for('band_dixiechicks')}}>Dixie Chicks</a>
         </div>
         
       </li>
@@ -115,7 +114,7 @@
 </nav>
 
     <!-- Main jumbotron with background image-->
-    <div class="bg" style="background: url('./images/blues.jpg') no-repeat center center;">
+    <div class="bg" style="background: url('../static/images/blues.jpg') no-repeat center center;">
 		
     <div class="jumbotron" >
 
@@ -128,7 +127,7 @@
 
 <div id="home-page-boxes" style="display: flex; flex-direction: row; justify-content: space-around;  margin-top:350px;">
             
-            <div class="box" onclick="location.href='about.html';">
+            <div class="box" >
                 <p>Blues Music originated by African Americans in the Deep South of the United States around the end of the 19th century. The genre developed from roots in African musical traditions, African-American work songs, spirituals, and European-American folk music. Blues incorporated spirituals, work songs, field hollers, shouts, chants, and rhymed simple narrative ballads. The blues form, ubiquitous in jazz, rhythm and blues and rock and roll, is characterized by the call-and-response pattern, the blues scale and specific chord progressions, of which the twelve-bar blues is the most common. The <a href="./band-alabamashakes.html"> Alabama Shakes</a> page has more information on a popular blues rock group and check out their label <a href="./label-ATO.html">ATO</a> to find more bands like them. </p> 
                <a class="twitter-timeline" href="https://twitter.com/Blues_Music">Tweets by Blues Music</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
