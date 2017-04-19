@@ -13,15 +13,29 @@ URLs that will call the index() function if running app.py on localhost:
 	http://localhost:5000/index
 '''
 
+def getCount():
+    file = open('AdvancedDataBase.txt', 'r')
+    for line in file:
+        count = int(line.strip())
+    file.close()
+    return count
+    
+def addCount():
+    count = getCount()
+    file = open('AdvancedDataBase.txt', 'w')
+    w = str(count + 1) + '\n'
+    file.write(w)
+    file.close()
+
 
 @app.route('/') # URL for function (default for home page)
 @app.route('/index') # Secondary URL for function
 def index():
-	return render_template('index.html') # located in templates/
+	return render_template('index.html', count = getCount()) # located in templates/
 
 @app.route('/about')
 def about():
-	return render_template('about.html')
+	return render_template('about.html', count = getCount())
 
 @app.route('/label') 
 def label():
@@ -120,9 +134,9 @@ def band_dixiechicks():
 def band_jackson5():
 	return render_template('band-jackson5.html')
 
-@app.route('/band_lakestreetdrive')
-def band_lakestreetdrive():
-	return render_template('band-lakestreetdrive.html')
+@app.route('/band_lakestreetdive')
+def band_lakestreetdive():
+	return render_template('band-lakestreetdive.html')
 
 @app.route('/band_shinee')
 def band_shinee():
@@ -132,8 +146,11 @@ def band_shinee():
 def band_theroots():
 	return render_template('band-theroots.html')
 
-
-	
+@app.route('/foo', methods=['GET', 'POST'])
+def foo(x=None, y=None):
+    addCount()
+    c = str(getCount())
+    return render_template('index.html', count = c)
 
 if __name__ == "__main__":
     app.run()

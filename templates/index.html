@@ -6,6 +6,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+
+
+        </script>
 
         
         <link rel="STYLESHEET" href="css/navigation.css" type="text/css"/>
@@ -82,28 +86,28 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Labels
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="label.html">Labels Home</a></li>
+            <li><a class="dropdown-item" href={{ url_for("label")}}>Labels Home</a></li>
          <li><a class="dropdown-item" href={{ url_for('label_defjam') }}>Def Jam</a></li>
-          <li><a class="dropdown-item" href="label-emi.html">Emi</a></li>
-          <li><a class="dropdown-item" href="label-motown.html">Motown</a></li>
-            <li><a class="dropdown-item" href="label-ato.html">ATO</a></li>
-          <li><a class="dropdown-item" href="label-columbia.html">Columbia</a></li>
-          <li><a class="dropdown-item" href="label-sment.html">S.M. Entertainment</a></li>
-        <li><a class="dropdown-item" href="label-nonesuch.html">NoneSuch</a></li>
+          <li><a class="dropdown-item" href={{ url_for('label_emi')}}>Emi</a></li>
+          <li><a class="dropdown-item" href={{ url_for('label_motown')}}>Motown</a></li>
+            <li><a class="dropdown-item" href={{ url_for('label_ato')}}>ATO</a></li>
+          <li><a class="dropdown-item" href={{ url_for('label_columbia')}}>Columbia</a></li>
+          <li><a class="dropdown-item" href={{ url_for('label_sment')}}>S.M. Entertainment</a></li>
+        <li><a class="dropdown-item" href={{ url_for('label_nonesuch')}}>NoneSuch</a></li>
         </ul>
       </li>
       <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bands
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="band.html">Bands Home</a></li>
-          <li><a class="dropdown-item" href="band-alabamashakes.html">Alabama Shakes</a></li>
-          <li><a class="dropdown-item" href="band-beatles.html">Beatles</a></li>
-          <li><a class="dropdown-item" href="band-jackson5.html">Jackson 5</a></li>
-          <li><a class="dropdown-item" href="band-theroots.html">The Roots</a></li>
-          <li><a class="dropdown-item" href="band-shinee.html">SHINee</a></li>
-          <li><a class="dropdown-item" href="band-lakestreetdive.html">Lake Street Dive</a></li>
-          <li><a class="dropdown-item" href="band-dixiechicks.html">Dixie Chicks</a></li>
+          <li><a class="dropdown-item" href={{ url_for('band')}}>Bands Home</a></li>
+          <li><a class="dropdown-item" href={{ url_for('band_alabamashakes')}}>Alabama Shakes</a></li>
+          <li><a class="dropdown-item" href={{ url_for('band_beatles')}}>Beatles</a></li>
+          <li><a class="dropdown-item" href={{ url_for('band_jackson5')}}>Jackson 5</a></li>
+          <li><a class="dropdown-item" href={{ url_for('band_theroots')}}>The Roots</a></li>
+          <li><a class="dropdown-item" href={{ url_for('band_shinee')}}>SHINee</a></li>
+          <li><a class="dropdown-item" href={{ url_for('band_lakestreetdive')}}>Lake Street Dive</a></li>
+          <li><a class="dropdown-item" href={{ url_for('band_dixiechicks')}}>Dixie Chicks</a></li>
         </ul>
       </li>
       <li class="dropdown">
@@ -187,17 +191,17 @@
         <div class="container" style="margin-top: 20px">
   <div class="row">
     <div class="col-sm-4" style="">
-        <center><img onclick="location.href='band-beatles.html';" class="logo" src="../static/images/beatles-logo.jpeg"/></center>
+        <center><a href={{url_for('band_beatles')}}><img class="logo" src="../static/images/beatles-logo.jpeg"/></a></center>
       <center><h3>The Beatles</h3></center>
                 <p>The Beatles were one of the most influential rock bands of the 60s. Hailing from Liverpool, England, their members included John Lennon, Paul McCartney, Ringo Starr, and George Harrison. They led what is popularly known as the "British Invasion" of bands into the American popular music scene and culture and recognized worldwide.</p>
     </div>
     <div class="col-sm-4" style="">
-        <center><img onclick="location.href='band-jackson5.html';" class="logo" src="../static/images/jackson5-logo.jpg"/></center>
+        <center><a href={{url_for('band_jackson5')}}><img class="logo" src="../static/images/jackson5-logo.jpg"/></a></center>
       <center><h3>Jackson 5</h3></center>
                 <p>Founded by the elder Jackson brothers, Jackie, Tito, and Jermaine, and joined by their younger brothers, Marlon and Michael, The Jackson 5 gained tremendous popularity in the 70s and 80s. They were subsequently inducted into the Rock and Roll Hall of Fame in 1997. Today, their success in the popular music industry is attributed as inspiration for boy bands, such as N*SYNC, the Backstreet Boys, and One Direction.</p>
       </div>
     <div class="col-sm-4" style="">
-        <center><img onclick="location.href='band-theroots.html';" class="logo" src="../static/images/theroots-logo.jpg"/></center>
+        <center><a href={{url_for('band_theroots')}}><img class="logo" src="../static/images/theroots-logo.jpg"/></a></center>
       <center><h3>The Roots</h3></center>
                 <p>The roots is a hip hop band founded in 1987 and have been active since then. They are known for a more jazzy version of hip hop often featuring live musical instruments. Their band has had many members past and present but it was founded by Tariq Trotter and Ahmir Thompson in Philadelphia. Their band really became widely known after the release of "Things Fall Apart".</p>
       </div>
@@ -208,22 +212,26 @@
                 <div class="container" style="margin-top: 20px">
   <div class="row">
     <div class="col-sm-4" style="">
-        <center><img onclick="location.href='band-alabamashakes.html';" class="logo" src="../static/images/alabamashakes-logo.jpg"/></center>
+        <center><a href={{url_for('band_alabamashakes')}}><img class="logo" src="../static/images/alabamashakes-logo.jpg"/></a></center>
       <center><h3>Alabama Shakes</h3></center>
                 <p>Alabama Shakes is relatively known blues rock band that was founded in 2009. The Alabama-based have only released 2 albums since their formation. They have been nominated for a total 8 times for Grammy Awards, including Album of the Year, and eventually picking up 3 awards in less than 10 years. The band gain recognition with the release of their first album that highlighted the power and soul in the voice of lead singer, Brittney Howard.</p>
     </div>
     <div class="col-sm-4" style="">
-        <center><img onclick="location.href='band-dixiechicks.html';" class="logo" src="../static/images/dixiechicks-logo.jpg"/></center>
+        <center><a href={{url_for('band_dixiechicks')}}><img class="logo" src="../static/images/dixiechicks-logo.jpg"/></a></center>
       <center><h3>Dixie Chicks</h3></center>
                 <p>The Dixie Chicks is one of the most controversial acts in country music. The Dallas based band started in 1989 and consisted of4 women specializing in bluegrass music and country music. Six years, a new repertoire, and a new lead singer led to commercial success. The band played the festival circuits and small venues before attracting the attention of major record labels.</p>
       </div>
     <div class="col-sm-4" style="">
-        <center><img onclick="location.href='band-lakestreetdive.html';" class="logo" src="../static/images/lakestreetdrive-logo.jpg"/></center>
+        <center><a href={{url_for('band_lakestreetdive')}}>   <img class="logo" src="../static/images/lakestreetdrive-logo.jpg"/></a></center>
       <center><h3>Lake Street Drive</h3></center>
                 <p>Lake Street Dive is a multi-genre band based in Boston, Massachusetts. The band consists of former classmates of the New England Conservatory of Music. The band was named after a street in the hometown of Mike Olson, the guitarist, with many dive bars in Minneapolis, Minnesota. Each member of the band plays at least one instruments. Some have received classical music training or had musician parents.</p>
       </div>
   </div>
 </div>
+        
+        <form action="/foo" method="post">
+            <button type="submit">{{count}}</button>
+</form>
 
 
     </body>
