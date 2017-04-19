@@ -1,6 +1,17 @@
 from flask import Flask # Import Flask package
+from flask import request
+from copy import deepcopy
 from flask import render_template # Import render_template function
 app = Flask(__name__) # Construct Flask object named 'app'
+app.jinja_env.autoescape = False
+
+bandDict = {}
+bandDict['The Beatles'] = 'The Beatles were one of the most influential rock bands of the 60s. Hailing from Liverpool, England, their members included John Lennon, Paul McCartney, Ringo Starr, and George Harrison. They led what is popularly known as the "British Invasion" of bands into the American popular music scene and culture and recognized worldwide.'
+bandDict['Jackson 5'] = 'Founded by the elder Jackson brothers, Jackie, Tito, and Jermaine, and joined by their younger brothers, Marlon and Michael, The Jackson 5 gained tremendous popularity in the 70s and 80s. They were subsequently inducted into the Rock and Roll Hall of Fame in 1997. Today, their success in the popular music industry is attributed as inspiration for boy bands, such as N*SYNC, the Backstreet Boys, and One Direction.'
+bandDict['The Roots'] = 'The roots is a hip hop band founded in 1987 and have been active since then. They are known for a more jazzy version of hip hop often featuring live musical instruments. Their band has had many members past and present but it was founded by Tariq Trotter and Ahmir Thompson in Philadelphia. Their band really became widely known after the release of "Things Fall Apart".'
+bandDict['Alabama Shakes'] = 'Alabama Shakes is relatively known blues rock band that was founded in 2009. The Alabama-based have only released 2 albums since their formation. They have been nominated for a total 8 times for Grammy Awards, including Album of the Year, and eventually picking up 3 awards in less than 10 years. The band gain recognition with the release of their first album that highlighted the power and soul in the voice of lead singer, Brittney Howard.'
+bandDict['Dixie Chicks'] = 'The Dixie Chicks is one of the most controversial acts in country music. The Dallas based band started in 1989 and consisted of4 women specializing in bluegrass music and country music. Six years, a new repertoire, and a new lead singer led to commercial success. The band played the festival circuits and small venues before attracting the attention of major record labels.'
+bandDict['Lake Street Dive'] = 'Lake Street Dive is a multi-genre band based in Boston, Massachusetts. The band consists of former classmates of the New England Conservatory of Music. The band was named after a street in the hometown of Mike Olson, the guitarist, with many dive bars in Minneapolis, Minnesota. Each member of the band plays at least one instruments. Some have received classical music training or had musician parents.'
 
 '''
 @app.route() defines the URLs that route to the index() function.
@@ -13,25 +24,11 @@ URLs that will call the index() function if running app.py on localhost:
 	http://localhost:5000/index
 '''
 
-def getCount():
-    file = open('AdvancedDataBase.txt', 'r')
-    for line in file:
-        count = int(line.strip())
-    file.close()
-    return count
-    
-def addCount():
-    count = getCount()
-    file = open('AdvancedDataBase.txt', 'w')
-    w = str(count + 1) + '\n'
-    file.write(w)
-    file.close()
-
-
 @app.route('/') # URL for function (default for home page)
 @app.route('/index') # Secondary URL for function
 def index():
-	return render_template('index.html', count = getCount()) # located in templates/
+    global bandDict
+    return render_template('index.html', bandDict = bandDict, editable = False) # located in templates/
 
 @app.route('/about')
 def about():
@@ -146,11 +143,16 @@ def band_shinee():
 def band_theroots():
 	return render_template('band-theroots.html')
 
-@app.route('/foo', methods=['GET', 'POST'])
-def foo(x=None, y=None):
-    addCount()
-    c = str(getCount())
-    return render_template('index.html', count = c)
+@app.route('/indexedit', methods=['GET', 'POST'])
+def indexedit():
+    global bandDict
+    return render_template('index.html', bandDict = bandDict, editable = True)
+
+@app.route('/textupdated', methods=['GET', 'POST'])
+def textupdated():
+    global bandDict
+    bandDict = deepcopy(request.form)
+    return render_template('index.html', bandDict = bandDict, editable = False)
 
 if __name__ == "__main__":
     app.run('107.170.29.54', '80')
