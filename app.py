@@ -153,6 +153,6 @@ def foo(x=None, y=None):
     return render_template('index.html', count = c)
 
 if __name__ == "__main__":
-    app.run()
+    app.run('107.170.29.54', '80')
 
 

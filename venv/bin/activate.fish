@@ -36,7 +36,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/iansp/Google_Drive/Spring_2017_Sync/softwareEngineering/cs329e-idb/venv"
+set -gx VIRTUAL_ENV "/var/www/cs329e-idb/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
