@@ -65,47 +65,58 @@
 
       <!--Labels sub dropdown menu-->
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Labels</a>
-
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="label.html">Labels Home</a>
-          <a class="dropdown-item" href="label-ato.html">ATO</a>
-          <a class="dropdown-item" href="lable-columbia">Columbia</a>
-          <a class="dropdown-item" href="label-defjam.html">Def Jam</a>
-          <a class="dropdown-item" href="label-emi.html">Emi</a>
-          <a class="dropdown-item" href="label-motown.html">Motown</a>
-          <a class="dropdown-item" href="label-nonesuch.html">Nonesuch</a>
-        </div>
-      </li>
-      
-      <!--Bands sub dropdown menu-->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bands</a>
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Labels
+        </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="band.html">Bands Home</a>
-          <a class="dropdown-item" href="band-alabamashakes.html">Alabama Shakes</a>
-          <a class="dropdown-item" href="band-beatles.html"> The Beatles</a>
-          <a class="dropdown-item" href="band-dixiechicks.html">Dixie Chicks</a>
-          <a class="dropdown-item" href="band-jackson5.html">Jackson 5</a>
-          <a class="dropdown-item" href="band-lakestreetdive.html">Lake Street Dive</a>
-          <a class="dropdown-item" href="band-theroots.html">The Roots</a>
-          <a class="dropdown-item" href="band-shinee.html">SHINee</a>
-      
-      <!--Labels sub dropdown menu-->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genres</a>
-
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="genre.html">Genres Home</a>
-          <a class="dropdown-item" href="Blues.html">Blues Music</a>
-           <a class="dropdown-item" href="Country.html">Country Music</a>
-          <a class="dropdown-item" href="HipHop.html">Hip Hop Music</a>
-          <a class="dropdown-item" href="KPop.html">KPop</a>
-          <a class="dropdown-item" href="Pop.html">Pop Music</a>
-          <a class="dropdown-item" href="Rock.html">Rock Music</a>
+          <a class="dropdown-item" href={{ url_for("label")}}>Labels Home</a>
+          <a class="dropdown-item" href={{ url_for('label_defjam') }}>Def Jam</a>
+          <a class="dropdown-item" href={{ url_for('label_emi')}}>Emi</a>
+          <a class="dropdown-item" href={{ url_for('label_motown')}}>Motown</a>
+          <a class="dropdown-item" href={{ url_for('label_ato')}}>ATO</a>
+          <a class="dropdown-item" href={{ url_for('label_columbia')}}>Columbia</a>
+          <a class="dropdown-item" href={{ url_for('label_sment')}}>S.M. Entertainment</a>
+          <a class="dropdown-item" href={{ url_for('label_nonesuch')}}>NoneSuch</a>
         </div>
       </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Bands
+        </a>
+        
+        <!--Bands sub dropdown menu-->
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href={{ url_for('band')}}>Bands Home</a>
+          <a class="dropdown-item" href={{ url_for('band_alabamashakes')}}>Alabama Shakes</a>
+          <a class="dropdown-item" href={{ url_for('band_beatles')}}>Beatles</a>
+          <a class="dropdown-item" href={{ url_for('band_dixiechicks')}}>Dixie Chicks</a>
+          <a class="dropdown-item" href={{ url_for('band_jackson5')}}>Jackson 5</a>
+          <a class="dropdown-item" href={{ url_for('band_lakestreetdive')}}>Lake Street Dive</a>
+          <a class="dropdown-item" href={{ url_for('band_theroots')}}>The Roots</a>
+          <a class="dropdown-item" href={{ url_for('band_shinee')}}>SHINee</a>
+        </div>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Genres
+        </a>
+        
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href={{ url_for('Genre') }}>Genres Home</a>
+          <a class="dropdown-item" href={{ url_for('Rock') }}>Rock Music</a>
+          <a class="dropdown-item"  href={{ url_for('Pop') }}>Pop Music</a>
+          <a class="dropdown-item"  href={{ url_for('HipHop') }}>Hip Hop Music</a>
+          <a class="dropdown-item"  href={{ url_for('Blues') }}>Blues Music</a>
+          <a class="dropdown-item" href={{ url_for('kPop') }}>K-Pop Music</a>
+          <a class="dropdown-item" href={{ url_for('Jazz') }}>Jazz Music</a>
+          <a class="dropdown-item" href={{ url_for('Country') }}>Country Music</a>
+        </div>
+      </li>
+      
     </ul>
   </div>
 </nav>
