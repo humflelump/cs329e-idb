@@ -1,11 +1,11 @@
 <html>
 <head>
-<link rel = "STYLESHEET" href="./css/table.css" type="text/css"/> 
-<link rel = "STYLESHEET" href="./css/navigation.css" type="text/css"/> 
+<link rel = "STYLESHEET" href="../static/css/table.css" type="text/css"/> 
+<link rel = "STYLESHEET" href="../static/css/navigation.css" type="text/css"/> 
 
 <style>
   h1{
-        background-image: url(./images/Greatest_bands_of_all_time.png);
+        background-image: url(../static/images/Greatest_bands_of_all_time.png);
        
   }
         .box {
