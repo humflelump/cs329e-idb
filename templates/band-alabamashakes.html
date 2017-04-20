@@ -55,15 +55,15 @@
     <span class="navbar-toggler-icon"></span>
     </button>
   
-    <a class="navbar-brand"  href="index.html">TheBestBands.me</a>
+    <a class="navbar-brand"  href={{ url_for('index') }}>TheBestBands.me</a>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link"  href={{ url_for('index') }}>Home <span class="sr-only">(current)</span></a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href={{ url_for('about') }}>About</a>
       </li>
 
       <!--Labels sub dropdown menu-->
