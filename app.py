@@ -154,6 +154,11 @@ def textupdated():
     bandDict = deepcopy(request.form)
     return render_template('index.html', bandDict = bandDict, editable = False)
 
+@app.route('/genre_submitted', methods=['GET', 'POST'])
+def genre_suubmitted():
+    return render_template('submittedGenrePage.html')
+
+
 if __name__ == "__main__":
     app.run()
     #app.run('107.170.29.54', '80')
