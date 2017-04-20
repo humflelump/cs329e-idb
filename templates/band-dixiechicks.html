@@ -151,14 +151,13 @@
             </ul>
 
             </div>
+            <!--whether they love it or hate it, they will be directed back to the band page, the genre page, or pandora-->
             <div class=" .btn-group.btn-group-justified" role="group" aria-label="Left Align">
-              <button type="button" class="btn-success">LOVE</button>
-              <button type="button" class="btn-info">LIKE</button>
-              <button type="button" class="btn-warning">OKAY</button>
-              <button type="button" class="btn-danger">HATE</button>
+              <button type="button" class="btn-success"><a href ="https://www.pandora.com/artist/dixie-chicks">LOVE</a></button>
+              <button type="button" class="btn-info"><a href = "https://www.pandora.com/music/country">LIKE</a></button>
+              <button type="button" class="btn-warning" href={{ url_for('Country') }}>OKAY</button>
+              <button type="button" class="btn-danger" href={{ url_for('band')}}>HATE</button>
             </div>
-
-
         </div>
 
  			<script>window.twttr = (function(d, s, id) {
