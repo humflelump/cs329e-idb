@@ -1,0 +1,415 @@
+commit f0a264f5485cc23a1fbd1fdac58cff732440b31d
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Thu Apr 20 21:43:32 2017 -0500
+
+    updated stats
+
+commit 516e033f71cd43d0806df1a83bd17cd899c4d32a
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 21:41:58 2017 -0500
+
+    finish
+
+commit 4133f76b3b4628bb44d6a4560317aaf882afc269
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 21:35:35 2017 -0500
+
+    fixed
+
+commit d6dfe5eb7de2e3b50fc1655e4b7bb12f7554dfa7
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 21:31:56 2017 -0500
+
+    fix
+
+commit 3755c6742e6893a3876462f724ed10ea43c22550
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Thu Apr 20 21:27:02 2017 -0500
+
+    added speaker deck
+
+commit c713cf12d82926c39faab77bf626d97f3e020832
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 21:23:31 2017 -0500
+
+    Create for mark(add to the about page)
+
+commit 3deaf4ec9d874acf7fbe7203ea33aa620435df2d
+Author: Fernando Ruiz <fernando.ruiz320@utexas.edu>
+Date:   Thu Apr 20 21:18:43 2017 -0500
+
+    edited Label pages
+
+commit 6f2a9755e4027ad93d02ddaaa2a50bee9c0fc432
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 21:14:03 2017 -0500
+
+    aad;f
+
+commit 0da42a97b2ccb03f34f81d30c07b4f2c55ff932e
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:58:33 2017 -0500
+
+    edits
+
+commit 3e942e3f0493da414c9cfd16aee268299ff12e32
+Merge: 5d680d5 d180f69
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:50:11 2017 -0500
+
+    Merge branch 'master' of https://github.com/humflelump/cs329e-idb
+
+commit 5d680d55ac5daa8da5fb7678de2210ed833db861
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:49:58 2017 -0500
+
+    final band home
+
+commit d180f69527a37365274b895b7a00aeb41b2ac0a0
+Merge: 4ffc49c 34b9ab4
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 20:44:47 2017 -0500
+
+    Merge branch 'master' of https://github.com/humflelump/cs329e-idb
+
+commit 4ffc49c54b6ea24063eb1e07386e329163cf5378
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 20:44:40 2017 -0500
+
+    Changinng the destination of album cover of Alabama Shakes
+
+commit 34b9ab437aa269ba4b7b26a4bd987d7643d8d383
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:39:02 2017 -0500
+
+    bt
+
+commit 321e05860e337511cb41d5e4beed312ccde19cca
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:29:25 2017 -0500
+
+    band table
+
+commit 82f7f76a0dec95e344ae7f9792af948bcda164e2
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:23:45 2017 -0500
+
+    edit
+
+commit 32d0be2b3bb6fa4b436144c21ab741647fbdced9
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:18:37 2017 -0500
+
+    cb
+
+commit 251761bbc3c30c52b55a9ec9393ca2ced44e328c
+Merge: ace32b9 fdf18d1
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:15:45 2017 -0500
+
+    aah
+
+commit ace32b974d5e5b6a9115e8b585c83f29a69e9190
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:14:41 2017 -0500
+
+    cb
+
+commit fdf18d1f20fde7fee5d4c9686e81fd6b9a8cd13f
+Merge: b392b84 c3cb627
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 20:08:39 2017 -0500
+
+    Changeing alabama shakes page
+
+commit b392b840c2847ee4ba75007afe1af0cbba9adad1
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 20:06:12 2017 -0500
+
+    Adding changes to alabama shakes page
+
+commit c3cb6273a95ba36f5e364dacc0c9c8689938adde
+Merge: d07da70 410cbdd
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:04:58 2017 -0500
+
+    Merge branch 'master' of https://github.com/humflelump/cs329e-idb
+
+commit d07da7076765c86ae6edced3a21f823f8673f55c
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 20:04:54 2017 -0500
+
+    comemtns
+
+commit 410cbddaa57e6455ffa77bbec6d1e2f6ee9abb24
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 20:03:34 2017 -0500
+
+    Changing format of the commment bar code
+
+commit c96d55deb8fe4cf05ca0b1ec67ac3f6d190a6dfb
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 19:51:05 2017 -0500
+
+    edit
+
+commit 62827756aa6439f2b78a4b4f18c9e392d7bc88ba
+Merge: 1410e62 838386b
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 19:47:14 2017 -0500
+
+    Merge branch 'master' of https://github.com/humflelump/cs329e-idb
+
+commit 1410e621b170577133d677005454e9e3ac119b98
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 19:47:04 2017 -0500
+
+    abedit
+
+commit 838386b538df7b93dc500eacfb70f27370fe62ba
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 15:06:32 2017 -0500
+
+     Adding features to button panel and pandora
+
+commit 0d53c1dc6c4b7cbef0a736fe5fa0bfe310c8401c
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 13:39:23 2017 -0500
+
+    Adding like buttons to all band pages
+
+commit 4e9bc46fd3e3058ad219f33ded956513078c1e06
+Merge: 3851351 0195f10
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 11:17:20 2017 -0500
+
+    Merge branch 'master' of https://github.com/humflelump/cs329e-idb
+
+commit 38513518977b7d101b4c66edab12ede068ca701f
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 11:17:00 2017 -0500
+
+    Adding changes to buttons
+
+commit 898ab45b0ff5f8c49c806755da9ec9c8e37ccd1c
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 11:14:29 2017 -0500
+
+    Adding fonts file to repository
+
+commit 0195f107815e7b7b8c42f90ffead80624d535fc4
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Thu Apr 20 10:54:46 2017 -0500
+
+    updated urls for all band pages
+
+commit ac51c2126386b8cef0df4d60d65aac2574055faa
+Merge: 3551334 96aa342
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 10:07:02 2017 -0500
+
+    Merge branch 'master' of https://github.com/humflelump/cs329e-idb
+
+commit 3551334eeacdecb79a77562923b70a4340954337
+Author: CAustin95 <courtneyaustin@utexas.edu>
+Date:   Thu Apr 20 10:06:31 2017 -0500
+
+    Adding buttons to page
+
+commit 96aa342fdbcf94163d2a9b9ebc7db417c1b8070d
+Author: Fernando Ruiz <fernando.ruiz320@utexas.edu>
+Date:   Thu Apr 20 03:37:28 2017 -0500
+
+    Updated hyperlinks on label pages
+
+commit fe22e522fa53e86ae1d4e9920f27523a0d573108
+Author: Fernando Ruiz <fernando.ruiz320@utexas.edu>
+Date:   Thu Apr 20 02:51:12 2017 -0500
+
+    Updated Navbar and Image Locations for Labels
+
+commit eae0493581fb2e1c7f0a27a42e953a3995c5f97b
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Wed Apr 19 23:16:35 2017 -0500
+
+    comment box
+
+commit fa7269aa08cddab477408b0910a5232baa7c10a5
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Wed Apr 19 22:30:30 2017 -0500
+
+    band page navbars
+
+commit 5c0aeb9b095771281357cda0a4f84f37847b917f
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Wed Apr 19 22:26:50 2017 -0500
+
+    static references bands
+
+commit 5a38d376f0c251012885281f64f181a717dd14ef
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Wed Apr 19 22:20:34 2017 -0500
+
+    static references for all band pages
+
+commit 2a6692826904a7e1fb117008e2a2ff3e4b8d788f
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Wed Apr 19 22:14:12 2017 -0500
+
+    bands home nav bar
+
+commit dbe64ea9b07ebfc4010d3d793b95519336f24b0b
+Author: Lauren Kagetsu <lkagetsu@utexas.edu>
+Date:   Wed Apr 19 22:06:25 2017 -0500
+
+    test
+
+commit 9d67eebe7f9cc0e79fdee3153b4377e93b008573
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Wed Apr 19 21:15:29 2017 -0500
+
+    fix about section
+
+commit ae2eb1ae393a5de81e7af7eb3fab5e5a4467bfea
+Author: IanPhilips <iansp@utexas.edu>
+Date:   Wed Apr 19 20:49:07 2017 -0500
+
+    added suggestion submission to app.py and genre home page
+
+commit 5571b5c2d01cd899695b34963ddd3f9361dd036f
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Wed Apr 19 17:17:59 2017 -0500
+
+    commented out code that was breaking app
+
+commit c0cb1d77e66f6a7fc818cf4ed7b105c95e6f1de8
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Wed Apr 19 16:52:36 2017 -0500
+
+    editable home page
+
+commit 989fc760e75dea76fb5dcfd7f9966b07603c8460
+Author: root <root@project-5-ruiz.localdomain>
+Date:   Wed Apr 19 18:35:40 2017 +0000
+
+    Digital Ocean setup
+
+commit fdfe09af3c8346ff886e0cb8e20f0355cea97b85
+Author: IanPhilips <iansp@utexas.edu>
+Date:   Wed Apr 19 11:41:30 2017 -0500
+
+    fixed genres pages and navbar
+
+commit 75865064ff032ec4e552b6b328c7eababbb556fe
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Tue Apr 18 22:33:46 2017 -0500
+
+    fixed about section
+
+commit 97c03b19d46f9904f7f331f5b60317213027ea6b
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Tue Apr 18 22:12:42 2017 -0500
+
+    added counter to index.html
+
+commit 5f307a3b113ca50da8e075eef338650bb3e7a4dd
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Tue Apr 18 17:21:31 2017 -0500
+
+    fixed index and add links in app.py
+
+commit 9c4c90ebdeb60ad8fa3829743155b5d39287aa2c
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Mon Apr 17 21:42:51 2017 -0500
+
+    transfered files
+
+commit 6bec2f2fe58105d2c7155fa99e423894c8d5188a
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Thu Apr 6 21:58:34 2017 -0500
+
+    transfered
+
+commit 3e26176a04885ac2e56f671660c859970437dc30
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Thu Apr 6 21:37:30 2017 -0500
+
+    removed all files
+
+commit 144d2b6e4d96d6dfcdb0da030e3f31a07a2b5d7d
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Mon Apr 3 16:46:22 2017 -0500
+
+    typo
+
+commit 59bfac114c9788ca6d818b248fd72e47a2ea30e3
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Mon Apr 3 16:44:26 2017 -0500
+
+    added bootstrap link
+
+commit 33e29d81be4f9b3a9debc32b75054da52860a744
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Mon Apr 3 16:37:58 2017 -0500
+
+    Added Bootstrap table template
+
+commit d8d05b966e7e58c0bffe4c0231a3e4a5ebbc8390
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Thu Mar 23 20:47:53 2017 -0500
+
+    added git log from humflelump.github.io
+
+commit 2e342ae66ecd9da34a2bc897221c12dfd21a2bb3
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Thu Mar 23 20:40:18 2017 -0500
+
+    moved all files from humflelump.github.io to this repo
+
+commit 8a852ea96592e47d5f9cc8db15080008db8b1b0c
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Thu Mar 23 20:39:10 2017 -0500
+
+    removed files
+
+commit 494bba3427725f9f12453d26e5dcb4ec00fcd709
+Author: Ian Philips <iansp@utexas.edu>
+Date:   Thu Mar 23 19:47:11 2017 -0500
+
+    Delete genre-theroots.html
+
+commit 2c01624813c5cded9fe2644cfd236b4b359bd78e
+Author: Ian Philips <iansp@utexas.edu>
+Date:   Thu Mar 23 19:47:02 2017 -0500
+
+    Delete genre-jackson5.html
+
+commit 4ee51139eff17f3342f6648e50a1e3f8d09e0c3e
+Author: Ian Philips <iansp@utexas.edu>
+Date:   Thu Mar 23 19:46:52 2017 -0500
+
+    Delete genre-beatles.html
+
+commit 3f41d233733862013420722853ad4d43f58d0a8e
+Author: humflelump <markmetzger@utexas.edu>
+Date:   Tue Mar 21 21:21:12 2017 -0500
+
+    Create CNAME
+
+commit 7bfad6f08f4c9bcaee723b9add14ce480009044b
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Tue Mar 21 21:02:12 2017 -0500
+
+    added basic html architecture
+
+commit 5a41fe67a585d3423aedba03dcda4e4df20f10fc
+Author: Mark Metzger <markmetzger@utexas.edu>
+Date:   Tue Mar 21 20:43:26 2017 -0500
+
+    first commit
+
+commit 39e1f042838fbacd1d29db1c864c354fbeb1f2b9
+Author: humflelump <markmetzger@utexas.edu>
+Date:   Tue Mar 21 20:37:49 2017 -0500
+
+    Initial commit
