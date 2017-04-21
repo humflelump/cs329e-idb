@@ -168,6 +168,22 @@
               </form>
 
 
+              <form action="/commentadded" method="POST">
+                <input name="commentBox" type="text" value="">
+                <input style="margin: 25px" type="submit" name="my-form" value="Add Comment">
+                  <table border = 1 style="margin-bottom: 50px">
+                  {% for comment in comments %}
+         
+                    <tr style="padding: 5px">
+                      <th> {{ comment }} </th>
+                    </tr>
+                
+                  {% endfor %}
+                  </table>
+              </form>
+
+
+
            </div>
 
 

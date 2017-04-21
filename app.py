@@ -159,6 +159,18 @@ def genre_suubmitted():
     return render_template('submittedGenrePage.html')
 
 
+#comment box action
+comments = []
+@app.route('/commentadded', methods=['GET', 'POST'])
+def commentadded():
+    global comments
+    comments.append(request.form['commentBox'])
+    print("yay", comments)
+    return render_template('band-alabamashakes.html', comments = comments)
+
+
+
+
 if __name__ == "__main__":
     app.run()
     #app.run('107.170.29.54', '80')
