@@ -157,23 +157,24 @@
               <button type="button" class="btn-danger">HATE</button>
               <p> TELL US WHAT YOU THINK ABOUT THIS BAND!!</p>
                             <!-- comment box-->
-              <div class = "container">
-                <div class = "row">
-                  <div class = "col-md-6">
-                    <div class = "widget-area no-padding blank">
-                      <div class = "comment-upload">
-                        <form>
-                          <textarea placeholder = "Leave a comment!"></textarea>
+             
 
-                          <button type="submit" class="btn btn-success green"><i class="fa fa-share"></i>Submit</button>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <form action="/html/tags/html_form_tag_action.cfm" method="post">
+              <div>
+              <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">Leave a comment
+              </textarea>
               </div>
-            </div>
-        </div>
+              <input type="submit" value="Submit">
+              </form>
+
+
+           </div>
+
+
+
+
+
+
 <!--twitter feed-->
  			<script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
