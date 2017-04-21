@@ -152,24 +152,26 @@
 
             </div>
             <!--whether they love it or hate it, they will be directed back to the band page, the genre page, or pandora-->
+            <p> RATE THIS BAND!! </p>
             <div class=" .btn-group.btn-group-justified" role="group" aria-label="Left Align">
               <button type="button" class="btn-success"><a href ="https://www.pandora.com/artist/dixie-chicks">LOVE</a></button>
               <button type="button" class="btn-info"><a href = "https://www.pandora.com/music/country">LIKE</a></button>
               <button type="button" class="btn-warning" href={{ url_for('Country') }}>OKAY</button>
               <button type="button" class="btn-danger" href={{ url_for('band')}}>HATE</button>
-            </div>
+              
+              <p> TELL US WHAT YOU THINK ABOUT THIS BAND!!</p>
+              <!-- comment box-->
+              <div class = "container">
+                <div class = "row">
+                  <div class = "col-md-6">
+                    <div class = "widget-area no-padding blank">
+                      <div class = "comment-upload">
+                        <form>
+                          <textarea placeholder = "Leave a comment!"></textarea>
 
-            <!-- comment box-->
-            <div class = "container">
-              <div class = "row">
-                <div class = "col-md-6">
-                  <div class = "widget-area no-padding blank">
-                    <div class = "comment-upload">
-                      <form>
-                        <textarea placeholder = "Leave a comment!"></textarea>
-
-                        <button type="submit" class="btn btn-success green"><i class="fa fa-share"></i>Submit</button>
-                      </form>
+                          <button type="submit" class="btn btn-success green"><i class="fa fa-share"></i>Submit</button>
+                        </form>
+                      </div>
                     </div>
                   </div>
                 </div>
