@@ -149,7 +149,17 @@
                 <li><b>Best Selling Album: Boys & Girls (2012)</b><img src="../static/images/alabamashakes-logo.jpg"></li>
                 </ul>
     
-            <form action="/commentadded" method="POST">
+            
+          </div>
+           <div class=" .btn-group.btn-group-justified" role="group" aria-label="Left Align">
+              <button type="button" class="btn-success"><a href="https://www.pandora.com/artist/alabama-shakes">LOVE</a></button>
+              <button type="button" class="btn-info"><a href= "https://www.pandora.com/music/blues">LIKE</a></button>
+              <button type="button" class="btn-warning">OKAY</button>
+              <button type="button" class="btn-danger">HATE</button>
+              <p> TELL US WHAT YOU THINK ABOUT THIS BAND!!</p>
+              
+              <!-- comment box-->
+              <form action="/commentadded" method="POST">
                 <input name="commentBox" type="text" value="">
                 <input style="margin: 25px" type="submit" name="my-form" value="Add Comment">
                   <table border = 1 style="margin-bottom: 50px">
@@ -162,16 +172,6 @@
                   {% endfor %}
                   </table>
               </form>
-          </div>
-           <div class=" .btn-group.btn-group-justified" role="group" aria-label="Left Align">
-              <button type="button" class="btn-success"><a href="https://www.pandora.com/artist/alabama-shakes">LOVE</a></button>
-              <button type="button" class="btn-info"><a href= "https://www.pandora.com/music/blues">LIKE</a></button>
-              <button type="button" class="btn-warning">OKAY</button>
-              <button type="button" class="btn-danger">HATE</button>
-              <p> TELL US WHAT YOU THINK ABOUT THIS BAND!!</p>
-                            <!-- comment box-->
-             
-
               
 
 
