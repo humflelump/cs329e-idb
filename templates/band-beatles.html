@@ -144,7 +144,7 @@
                 <a class="twitter-timeline" href="https://twitter.com/thebeatles">Tweets by The Roots</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <div class="video" onclick="location.href='https://en.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band';"> 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2uneYz201p0" frameborder="0" allowfullscreen></iframe>     
+        <iframe width="490" height="315" src="https://www.youtube.com/embed/2uneYz201p0" frameborder="0" allowfullscreen></iframe>     
 
             <ul>
                 <li><b>Band's Website: </b><a href=" http://www.thebeatles.com/"> http://www.thebeatles.com</a></li>
@@ -157,6 +157,22 @@
               <button type="button" class="btn-info"><a href = "https://www.pandora.com/music/rock">LIKE</a></button>
               <button type="button" class="btn-warning">OKAY</button>
               <button type="button" class="btn-danger">HATE</button>
+           
+           <!-- comment box-->
+              <form action="/commentadded" method="POST">
+                <input name="commentBox" type="text" value="">
+                <input style="margin: 25px" type="submit" name="my-form" value="Add Comment">
+                  <table border = 1 style="margin-bottom: 50px">
+                  {% for comment in comments %}
+         
+                    <tr style="padding: 5px">
+                      <th> {{ comment }} </th>
+                    </tr>
+                
+                  {% endfor %}
+                  </table>
+              </form>
+
            </div>
 
         </div>

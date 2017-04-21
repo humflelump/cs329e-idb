@@ -141,7 +141,7 @@
             </div>
 
             <div class="image" onclick="location.href='https://en.wikipedia.org/wiki/Fly_(Dixie_Chicks_album)';"> 
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/gxB02IK1ujc" frameborder="0" allowfullscreen></iframe>   
+       <iframe width="490" height="315" src="https://www.youtube.com/embed/gxB02IK1ujc" frameborder="0" allowfullscreen></iframe>   
 
 
             <ul>
@@ -160,22 +160,21 @@
               <button type="button" class="btn-danger" href={{ url_for('band')}}>HATE</button>
               
               <p> TELL US WHAT YOU THINK ABOUT THIS BAND!!</p>
+              
               <!-- comment box-->
-              <div class = "container">
-                <div class = "row">
-                  <div class = "col-md-6">
-                    <div class = "widget-area no-padding blank">
-                      <div class = "comment-upload">
-                        <form>
-                          <textarea placeholder = "Leave a comment!"></textarea>
-
-                          <button type="submit" class="btn btn-success green"><i class="fa fa-share"></i>Submit</button>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <form action="/commentadded" method="POST">
+                <input name="commentBox" type="text" value="">
+                <input style="margin: 25px" type="submit" name="my-form" value="Add Comment">
+                  <table border = 1 style="margin-bottom: 50px">
+                  {% for comment in comments %}
+         
+                    <tr style="padding: 5px">
+                      <th> {{ comment }} </th>
+                    </tr>
+                
+                  {% endfor %}
+                  </table>
+              </form>
             </div>
         </div>
 
