@@ -172,7 +172,7 @@ def commentadded():
 
 
 if __name__ == "__main__":
-    app.run()
-    #app.run('107.170.29.54', '80')
+    #app.run()
+    app.run('107.170.29.54', '80')
 
 
