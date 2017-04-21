@@ -149,26 +149,7 @@
                 <li><b>Best Selling Album: Boys & Girls (2012)</b><img src="../static/images/alabamashakes-logo.jpg"></li>
                 </ul>
     
-           </div>
-           <div class=" .btn-group.btn-group-justified" role="group" aria-label="Left Align">
-              <button type="button" class="btn-success"><a href="https://www.pandora.com/artist/alabama-shakes">LOVE</a></button>
-              <button type="button" class="btn-info"><a href= "https://www.pandora.com/music/blues">LIKE</a></button>
-              <button type="button" class="btn-warning">OKAY</button>
-              <button type="button" class="btn-danger">HATE</button>
-              <p> TELL US WHAT YOU THINK ABOUT THIS BAND!!</p>
-                            <!-- comment box-->
-             
-
-              <form action="/html/tags/html_form_tag_action.cfm" method="post">
-              <div>
-              <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">Leave a comment
-              </textarea>
-              </div>
-              <input type="submit" value="Submit">
-              </form>
-
-
-              <form action="/commentadded" method="POST">
+            <form action="/commentadded" method="POST">
                 <input name="commentBox" type="text" value="">
                 <input style="margin: 25px" type="submit" name="my-form" value="Add Comment">
                   <table border = 1 style="margin-bottom: 50px">
@@ -181,6 +162,20 @@
                   {% endfor %}
                   </table>
               </form>
+          </div>
+           <div class=" .btn-group.btn-group-justified" role="group" aria-label="Left Align">
+              <button type="button" class="btn-success"><a href="https://www.pandora.com/artist/alabama-shakes">LOVE</a></button>
+              <button type="button" class="btn-info"><a href= "https://www.pandora.com/music/blues">LIKE</a></button>
+              <button type="button" class="btn-warning">OKAY</button>
+              <button type="button" class="btn-danger">HATE</button>
+              <p> TELL US WHAT YOU THINK ABOUT THIS BAND!!</p>
+                            <!-- comment box-->
+             
+
+              
+
+
+              
 
 
 
